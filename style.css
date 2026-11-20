@@ -48,3 +48,30 @@ footer{border-top:1px solid #000;margin-top:30px}
 footer .in{max-width:1024px;margin:0 auto;padding:20px;font-size:.88rem;display:flex;flex-wrap:wrap;gap:8px 28px;justify-content:space-between}
 @media (max-width:820px){.wrap{grid-template-columns:1fr;gap:26px}.side{position:static}}
 @media (prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
+
+/* Colour theme: same layout, palette from the reference site */
+body{color:#494e52}
+a{color:#52adc8}
+a:visited{color:#639fae}
+a:hover{background:none;color:#235f6e;text-decoration:underline}
+::selection{background:#52adc8;color:#fff}
+:focus-visible{outline-color:#52adc8}
+.masthead{border-bottom-color:#f2f3f3}
+.masthead a,.masthead a:visited{color:#494e52}
+.masthead a:hover{background:none;color:#5b6266}
+.masthead nav a:hover,.masthead nav a.on{border-bottom-color:#2f7f93}
+.ph{border-color:#f2f3f3}
+.ph .mono{color:#2f7f93}
+details.f summary{border-color:#bdc1c4;color:#494e52}
+details.f[open] summary{background:#2f7f93;border-color:#2f7f93;color:#fff}
+main h1{border-bottom-color:#f2f3f3}
+main h2{padding-bottom:.4em;border-bottom:1px solid #f2f3f3}
+th,td{border-color:#f2f3f3}
+th{background:#f2f3f3;color:#494e52}
+.item{border-color:#f2f3f3}
+.item:hover{box-shadow:5px 5px 0 #bdc1c4}
+.st{border-color:#bdc1c4;color:#7a8288}
+.st.on{background:#2f7f93;border-color:#2f7f93;color:#fff}
+footer{background:#f2f3f3;border-top-color:#bdc1c4;color:#7a8288}
+footer a,footer a:visited{color:#7a8288}
+footer a:hover{color:#494e52}
